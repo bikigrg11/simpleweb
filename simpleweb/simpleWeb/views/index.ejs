@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <title>arrangements</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <link rel="stylesheet" href="/views/css/index.css">
+    <link rel="stylesheet" href="/views/assets/css/cover.css">
+  
+</head>
+
+<body >
+    <nav class="navbar navbar-fixed-top navbar-inverse" >
+        <div id="navbar" class="collapse navbar-collapse" >
+
+            <form action="/login" method="post">
+                <div class="col-sm-8 col-sm-offset-3">
+                    <ul class="list-inline">
+                        <li><label>Email</label></li>
+                        <li><input type="text" class="form-control" name="email"></li>
+                        <li><label>Password</label></li>
+                        <li><input type="password" class="form-control" name="password"></li>  
+                        <li><button type="submit" class="btn btn-primary  btn-lg">Login</button></li>
+                        <li> <input type="checkbox" value="remember-me"> Remember me </li>
+
+                    </ul>
+                </div>        
+            </form>    
+        </div><!-- /.nav-collapse -->
+    </nav><!-- /.navbar -->
+
+<div class="jumbotron">
+    <div class="pull-right">
+        <div class="jumbotron text-center a-image">
+            <div class="site-wrapper">
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <h1><span class="glyphicon glyphicon-thumbs-up"></span> Signup</h1>
+
+                    <!-- LOGIN FORM -->
+
+                    <form action="/signup" method="post">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" name="password">
+                        </div>  
+                        <div class="form-group">
+                            <div for="birthday" class="col-xs-3 col-sm-2 control-label">Birthday</div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" placeholder="year"/>
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" placeholder="month"/>
+                            </div>
+                            <div class="col-xs-3">
+                                <input type="text" class="form-control" placeholder="day"/>
+                            </div>    
+                        </div>
+                         
+                           <button type="submit" class="btn btn-warning btn-lg">Signup</button>
+                        
+                        <hr>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--
+------------------------------------------------------
+-->
+
+    <div class="cover">
+        <h1 class="cover-heading black">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and adbd your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+        <a href="#" class="btn btn-lg btn-default">Learn more</a>
+        </p>
+    </div> 
+
+</div>
+
+<!--
+------------------------------------------------------
+-->
+
+    <div class="container">
+
+     </div> 
+    <div class="container">
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+     </div> 
+  
+<!--
+------------------------
+-->
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+</body>
+</html>

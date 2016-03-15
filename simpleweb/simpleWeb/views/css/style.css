@@ -1,0 +1,70 @@
+
+.title-name{
+	font-family: -webkit-pictograph;
+    font-size: 47px;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 42px;
+    line-height: 24px
+}
+}
+.container{
+    background: -webkit-linear-gradient(84deg, #020000 0%,#020120 72%);
+    width:100%;
+}
+.headerAlign{
+	text-align: center;
+}
+ .headerName{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    color: black;
+}
+.biki-icon-logo{
+	margin-left: 10px;
+	 background-image: url("../images/icon2.png");
+}
+
+.biki-icon-header {   
+	height: 62px;
+    width: 121px;
+    margin-left: 45%;
+    margin-right: auto;
+    padding-bottom: 22px;
+}
+.hidden{
+	display: none;
+}
+.carContainer{
+	float: right;
+}
+.moveCarLeft{
+	margin-right: 96%;
+    -webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-ms-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+
+.moveCarRight{
+	margin-right: 0%;
+    -webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-ms-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+
+.white-font{
+	color:white;
+}
+.black{
+	color:black;
+}
+
+
+
+
